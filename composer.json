@@ -1,0 +1,19 @@
+{
+    "name": "roman444uk/yii2-sse",
+    "description": "Yii2 SSE is a wrapper for the library libSSE-php. Its used for managing Server Sent Events in Yii2.",
+    "authors": [
+        {
+            "name": "Danny Carrillo",
+            "email": "odannycx@gmail.com"
+        }
+    ],
+    "require": {
+        "tonyhhyip/sse": "^2.1",
+        "yiisoft/yii2": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "roman444uk\\Yii2SSE\\": "src/"
+        }
+    }
+}
