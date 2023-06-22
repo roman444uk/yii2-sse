@@ -4,7 +4,7 @@ Yii2 SSE is a wrapper for the library libSSE-php. Its used for managing Server S
 ## Installation
 You'll be installing this package through composer.
 
-Run this command within your project folder: `composer require odannyc/yii2-sse`
+Run this command within your project folder: `composer require roman444uk/yii2-sse`
 
 ## Usage
 *These steps are for the simple/basic Yii2 project.*
@@ -15,7 +15,7 @@ Edit your `web.php` config file which is located usually in `app/config/web.php`
 'components' => [
   ...
   'sse' => [
-    'class' => \odannyc\Yii2SSE\LibSSE::class
+    'class' => \roman444uk\Yii2SSE\LibSSE::class
   ]
   ...
 ];
@@ -23,7 +23,7 @@ Edit your `web.php` config file which is located usually in `app/config/web.php`
 
 You'll have to create a handler for your SSE instance. Usually located in `app/sse/`.
 ```php
-use odannyc\Yii2SSE\SSEBase;
+use roman444uk\Yii2SSE\SSEBase;
 
 class MessageEventHandler extends SSEBase
 {

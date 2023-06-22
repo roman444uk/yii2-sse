@@ -5,7 +5,7 @@
  * @file SSEBase.php
  */
 
-namespace odannyc\Yii2SSE;
+namespace roman444uk\Yii2SSE;
 
 use Sse\Event;
 

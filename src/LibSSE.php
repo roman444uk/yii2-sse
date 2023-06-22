@@ -3,7 +3,7 @@
  * @author Danny Carrillo <odannycx@gmail.com>
  * @package yii2-sse
  */
-namespace odannyc\Yii2SSE;
+namespace roman444uk\Yii2SSE;
 use Sse\SSE;
 
 /**
