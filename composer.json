@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "tonyhhyip/sse": "^2.1",
+        "roman444uk/sse": "*",
         "yiisoft/yii2": "^2.0"
     },
     "autoload": {
